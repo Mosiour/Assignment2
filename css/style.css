@@ -190,3 +190,30 @@ main {
     bottom: 100px;
    
 }
+
+/* User logo section */
+
+.review-container{
+    /* border: 1px solid red; */
+   gap: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+.single-review{
+    /* border: 1px solid green; */
+    flex-basis: 250px;
+    /* background-color: #e893cf; */
+    /* padding: 10px;
+    border-radius: 10px; */
+}
+
+.top-review{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+}
