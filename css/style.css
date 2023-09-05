@@ -82,6 +82,7 @@ main {
     display: flex;
     align-items: center;
     background-color: whitesmoke;
+    margin: 10px;
 }
 
 .teams-content {
@@ -155,4 +156,37 @@ main {
 .online {
     width: 300px;
     height: 370px;
+}
+
+.teams-content2 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.desc{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feature-img img{
+    height: 500px;
+    width: 600px;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+ .ten-years-badge{
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background-image: url('../images/Rectangle 78.png');
+    width: 318px;
+    height: 365px;
+    text-align: center;
+    position:relative;
+    bottom: 100px;
+   
 }
