@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background-color: #FFF;
+}
+.nav-container{
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.logo-container{
+
+    display: flex;
+    width: 50%;
+    margin: 20px;
+}
+
+.logo-container img{
+
+    width: 80px;
+    object-fit:cover;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 30px;
+  
+}
+
+.g-section{
+    color: #e893cf;
+}
+
+.nav-items-container{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.nav-items-container .follow-btn{
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    
+}
+
+.fa-youtube{
+    color: red;
+}
+
+/* nav design ends here */
