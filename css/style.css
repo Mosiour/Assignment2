@@ -92,6 +92,11 @@ main {
     color: #0b0d17;
 }
 
+.images{
+    width: 100%;
+    height: 100%;
+}
+
 .teams-title {
     font-size: 2.8rem;
 }

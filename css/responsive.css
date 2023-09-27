@@ -1,45 +1,56 @@
-@media screen and (max-width:800px){
+/* @media screen and (max-width:800px){
 
 
-    .online2 {  
+    .nav-container {  
         grid-template-columns: repeat(3,1fr);
-  
+        flex-direction: column;
     }
-}
+} */
 
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
 
 
-    .online2{  
+    .nav-container{  
         grid-template-columns: repeat(2,1fr);
-  
+        flex-direction: column;
     }
+} */
 
+/* @media screen and (max-width:320px){
     .nav-container{
-
-      
-        flex-direction: column;
-        
-        
-    }
-
-    .teams-image-container{
         flex-direction: column;
     }
-}
 
-@media screen and (min-width:300px){
-    .nav-container{
-
-      
+    .game{
         flex-direction: column;
-        
-        
     }
 
-    .footer_ending{
-        grid-template-columns: repeat(3,1fr);
+    .teams-container{
         flex-direction: column;
+        
+        .teams-content{
+            padding-left: 50px;
+            padding-right: 90px;
+        
+        .images{
+            width:150%;
+            height: 50%;
+            padding-left: 120px;
+            margin-left: 20px;
+            margin-right: 690px;
+        }
+    }
+    }
+
+    .online2{
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+    }
+
+    .footer_ending {
+        .logo-container2{
+            flex-direction: column;
+        }
     }
 
     .teams-image-container{
@@ -85,6 +96,215 @@
         width: 50%;
         margin-bottom: 10px;
     }
-}
+} */
 
     /* nav responsive ends here  */
+
+    /* Apply styles for screens smaller than 320px (typical mobile devices) */
+@media (max-width: 320px) {
+    /* Center-align the logo and navigation items */
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Add spacing and increase font size for navigation links */
+    .nav-items-container {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .nav-items-container a {
+        font-size: 16px; /* Reduce font size for smaller screens */
+        padding: 10px;
+    }
+
+    /* Center-align the "Follow Us" button and icons */
+    .follow-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .follow-btn a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Add margin between social media icons */
+    .fa-brands {
+        margin-right: 10px;
+    }
+}
+/* Apply styles for screens smaller than 320px (typical mobile devices) */
+@media (max-width: 320px) {
+    /* Center-align the content within the section */
+    .teams-content {
+        text-align: center;
+    }
+
+    /* Reduce font size for the title */
+    .teams-title {
+        font-size: 24px;
+    }
+
+    /* Reduce font size for the description text */
+    .des i {
+        font-size: 14px;
+        margin-top: 10px; /* Add spacing between feature icons */
+    }
+
+    /* Center-align and adjust button styles */
+    .btn-gap {
+        text-align: center;
+    }
+
+    .btn-primary1,
+    .btn-primary2 {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        font-size: 16px; /* Increase button font size for better tap targets */
+    }
+
+    /* Adjust image size to fit smaller screens */
+    .feature-img img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+/* Apply styles for screens smaller than 320px (typical mobile devices) */
+@media (max-width: 320px) {
+    /* Center-align the content within the section */
+    .section-title,
+    .section-description {
+        text-align: center;
+    }
+
+    /* Reduce font size for the section title and description */
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-description {
+        font-size: 14px;
+        margin-top: 10px; /* Add spacing between the title and description */
+    }
+
+    /* Center-align and adjust styles for game containers */
+    .game {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image-container {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box; /* Ensure padding doesn't add to the width */
+        text-align: center;
+    }
+
+    .online.image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Adjust button styles */
+    .play-button {
+        font-size: 24px;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+
+    /* Reduce font size for game descriptions */
+    .image-container p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+/* Apply styles for screens smaller than 320px (typical mobile devices) */
+@media (max-width: 320px) {
+    /* Center-align the content within the section */
+    .teams-content2 {
+        text-align: center;
+    }
+
+    /* Reduce font size for the title and description */
+    .teams-title {
+        font-size: 24px;
+        text-align: center; /* Center-align the title for small screens */
+    }
+
+    .desc {
+        font-size: 14px;
+        margin-top: 10px; /* Add spacing between the title and description */
+    }
+
+    /* Adjust styles for the feature image */
+    .feature-img {
+        text-align: center; /* Center-align the image */
+    }
+
+    .feature-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Styles for the ten-years-badge */
+    .ten-years-badge {
+        background-color: #f2f2f2; /* Background color for the badge */
+        color: #333; /* Text color for the badge */
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}
+
+/* Apply styles for screens smaller than 320px (typical mobile devices) */
+@media (max-width: 320px) {
+    /* Center-align the content within the footer */
+    .footer_ending {
+        text-align: center;
+        padding: 10px; /* Add some spacing around the content */
+    }
+
+    /* Adjust logo and text styles */
+    .logo-container2 img {
+        max-width: 80px; /* Limit the logo size */
+        height: auto;
+    }
+
+    .logo-container2 p {
+        font-size: 18px; /* Increase font size for the footer title */
+        margin-top: 5px; /* Add spacing between the logo and title */
+    }
+
+    /* Center-align the anchor sections and add spacing between them */
+    .anchor,
+    .anchor2,
+    .anchor3 {
+        text-align: center;
+        margin-top: 20px; /* Add spacing between anchor sections */
+    }
+
+    /* Adjust anchor styles */
+    .anchor a,
+    .anchor3 a {
+        display: block;
+        font-size: 14px; /* Reduce font size for anchor links */
+        margin-bottom: 5px; /* Add spacing between anchor links */
+    }
+
+    /* Adjust social icon styles */
+    .anchor2 i {
+        font-size: 24px; /* Increase font size for social icons */
+        margin-bottom: 5px; /* Add spacing between social icons */
+    }
+
+    /* Adjust footer text style */
+    #foot {
+        font-size: 12px; /* Reduce font size for the copyright text */
+        margin-top: 20px; /* Add spacing between the content and copyright text */
+    }
+}
